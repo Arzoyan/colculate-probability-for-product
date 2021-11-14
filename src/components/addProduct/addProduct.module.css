@@ -1,0 +1,29 @@
+.itemCont {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-height: 100%;
+     overflow: auto
+}
+
+.btnCont {
+    display: flex;
+}
+
+.paper {
+    padding: 20px;
+}
+
+.input {
+    margin-bottom: 10px !important;
+}
+
+.card{
+    margin-bottom:35px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .itemCont {
+        width: 100%;
+    }
+}
